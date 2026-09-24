@@ -1,1 +1,1 @@
-# site-tematico-exemplo
+# Projeto base exemplificando uso do CSS

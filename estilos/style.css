@@ -1,0 +1,90 @@
+/* Inicio da estilização - Padronização da estrutura do site */
+
+* { /* Especifica o comportamento do site em relação à largura e altura para o conteúdo não fugir das suas "caixas" */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f6fb; /* Cor de fundo do selector */
+    color:#17213a; /* Cor da fonte */
+
+    margin: 0; /* Remove a margem padrão do html */
+
+    font-family: Arial, Helvetica, sans-serif; /* Define o uso padrão das fontes dos SO. */
+    font-size: 18px; /* Define o tamanho padrão da fonte */
+    line-height: 1.6; /* Definir o tamanho de uma linha */
+}
+
+h1, h2, h3 {
+    line-height: 1.2; /* Define o tamanho de uma linha para os headers de texto */
+}
+
+a {
+    color: #174ea6; /* Define a cor da fonte para ancoras */
+    font-weight: 900; /* Define o peso da fonte para ancoras */
+}
+
+a:focus { /* Define as regras para quando o <a> estiver em foco */
+    outline: 4px solid #ffb000; /* Define uma outline para identificar o botão em foco de forma mais fácil */
+    outline-offset: 3px; /* Define uma largura maior do outline */
+}
+
+a:hover { /* Define uma regra para quando o mouse estiver sobre <a> */
+    color:#6a8dc4; /* Define a cor da fonte da ancora quando o mouse sobrevoa ela */
+}
+
+/* Regras para regiões da página */
+
+header, footer { /* Define regras para header E footer */
+    padding: 24px; /*  */
+
+    background-color: #17213a; /*  */
+    color:#ffffff; /*  */
+}
+
+header a { /* Define uma regra para toda <a> que estiver dentro de <header> */
+    color: #ffffff; /*  */
+}
+
+nav {
+    display: flex; /*  */
+    flex-wrap: wrap; /*  */
+    gap: 20px; /*  */
+}
+
+main {
+    width: min(900px, 90%); /*  */
+    margin: 32px auto; /*  */
+}
+
+footer { /*  */
+    margin-top: 32px; /*  */
+}
+
+/* Componentes Reutilizáveis */
+
+.cartao { /*  */
+    margin: 20px 0; /*  */
+    padding: 24px; /*  */
+
+    border: 2px solid #b8c5dc; /*  */
+    border-radius: 12px; /*  */
+
+    background: #dcffd8; /*  */
+    background-image: url(https://wallpapercave.com/wp/wp2586787.jpg);
+    background-size: cover; /*  */
+    background-position: bottom; /*  */
+    color:#f3f6fb; /*  */
+}
+
+.botao {  /*  */
+    display: inline-block;  /*  */
+
+    padding: 10px 16px;  /*  */
+
+    /* border: 2px solid #34c44a; */
+    border-radius: 8px;  /*  */
+    
+    background-color: #174;  /*  */
+    color: #ffffff;  /*  */
+}

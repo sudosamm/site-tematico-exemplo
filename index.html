@@ -3,39 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site tematico só que placeholder</title>
+    <title>Página Inicial</title>
+    <link href="./estilos/style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Meu site temático</h1>
-        <p>Um projeto multipáginas, agora com identidade visual</p>
+        <h1>Página Inicial</h1>
+        <p>Site dedicado para aula de CSS</p>
         <nav>
-            <a href="./index.html">Início</a>
-            <a href="#conteudo">Conteúdo</a>
-            <a href="#curiosidade">Curiosidade</a>
+            <a href="./paginas/minecraft.html">Minecraft</a>
+            <a href="./paginas/clash_royale.html" >Clash Royale</a>
+            <a href="./paginas/pokemon_emerald.html">Pokémon</a>
         </nav>
     </header>
     <main id="conteudo">
-        <section>
-            <h2>Conteúdo Principal</h2>
-            <article class="cartao">
-                <h3>Primeiro Card</h3>
-                <p>Este conteúdo já possui significado em HTML. O CSS apenas modificou a sua apresentação.</p>
-                <a class="botao" href="#curiosidade">Ver Curiosidade</a>
-            </article>
-            <article class="cartao">
-                <h3>Segundo Card</h3>
-                <p>A mesma classe foi reutilizada para manter um padrão visual.</p>
+        <section id="geral">
+            <h2>Categoria de Jogos Amplamente Acessíveis - Desktop, Mobile e Consoles</h2>
+            <article class="cartao" id="minecraft">
+                <h3>Minecraft - Joguinho de bloquinho</h3>
+                <p>Minecraft é um jogo de exploração onde você entra em um mundo vasto, gerado de forma procedural onde você utiliza blocos para criar estruturas, luta contra monstros, cria ferramentas e faz amiguinhos (ou acaba com suas amizades).</p>
+                <a class="botao">Acessar conteúdo sobre Minecraft</a>
             </article>
         </section>
-        <aside id="curiosidade" class="aviso">
-            <h2>Curiosidade</h2>
-            <p>Você pode ativar ou desativar o link CSS e o conteúdo continuará existindo.</p>
-        </aside>
     </main>
     <footer>
-        <p>Exemplo didático - 1º INFORMÁTICA 2026</p>
-        <a class="botao" href="./pages/indexEstilizado.html">Acesse o modelo estilizado</a>
+        <p>Projeto Exemplo de CSS sobre Jogos - INFORMÁTICA 2026</p>
     </footer>
 </body>
 </html>

@@ -36,55 +36,55 @@ a:hover { /* Define uma regra para quando o mouse estiver sobre <a> */
 /* Regras para regiões da página */
 
 header, footer { /* Define regras para header E footer */
-    padding: 24px; /*  */
+    padding: 24px; /* Define a distância entre o conteúdo e as bordas */
 
-    background-color: #17213a; /*  */
-    color:#ffffff; /*  */
+    background-color: #17213a; /* Define o plano de fundo padrão */
+    color:#ffffff; /* Define a cor padrão da fonte */
 }
 
 header a { /* Define uma regra para toda <a> que estiver dentro de <header> */
-    color: #ffffff; /*  */
+    color: #ffffff; /* Define a cor padrão da fonte */
 }
 
 nav {
-    display: flex; /*  */
-    flex-wrap: wrap; /*  */
-    gap: 20px; /*  */
+    display: flex; /* Permite a organização dos componentes dentro do contêiner de forma flexivel e responsiva */
+    flex-wrap: wrap; /* Faz com que os componentes desçam para a próxima linha caso excedam a tela do usuário */
+    gap: 20px; /* Define o espaçamento entre os itens */
 }
 
 main {
-    width: min(900px, 90%); /*  */
-    margin: 32px auto; /*  */
+    width: min(900px, 90%); /* Define a largura mínima para telas grandes e pequenas */
+    margin: 32px auto; /* Define o limite/espaço disponível após a borda do componente */
 }
 
-footer { /*  */
-    margin-top: 32px; /*  */
+footer { /* Guarda conteúdos do rodapé */
+    margin-top: 32px; /* Define o limite/espaço disponível após a borda para o topo */
 }
 
 /* Componentes Reutilizáveis */
 
-.cartao { /*  */
-    margin: 20px 0; /*  */
-    padding: 24px; /*  */
+.cartao { /* Componente cartao */
+    margin: 20px 0; /* Define o limite/espaço disponível após a borda do componente */
+    padding: 24px; /* Define a distância entre o conteúdo e as bordas */
 
-    border: 2px solid #b8c5dc; /*  */
-    border-radius: 12px; /*  */
+    border: 2px solid #b8c5dc; /* Cria uma borda com 2px de largura, que segue em sua extensão de forma sólida e com cor definida */
+    border-radius: 12px; /* Define o raio dos cantos da borda */
 
-    background: #dcffd8; /*  */
-    background-image: url(https://wallpapercave.com/wp/wp2586787.jpg);
-    background-size: cover; /*  */
-    background-position: bottom; /*  */
-    color:#f3f6fb; /*  */
+    background-color: #dcffd8; /* Define um plano de fundo padrão */
+    background-image: url(https://wallpapercave.com/wp/wp2586787.jpg); /* Define uma imagem como plano de fundo */
+    background-size: cover; /* Coloca a imagem para cobrir todo o espaço possível */
+    background-position: bottom; /* Coloca a imagem para iniciar a exibição do fundo caso seja possível */
+    color:#f3f6fb; /* Define a cor padrão da fonte */
 }
 
-.botao {  /*  */
-    display: inline-block;  /*  */
+.botao {  /* Componente botao */
+    display: inline-block;  /* Cria um bloco onde é possível definir altura e largura para o conteúdo */
 
-    padding: 10px 16px;  /*  */
+    padding: 10px 16px;  /* Define a distância entre o conteúdo e as bordas */
 
     /* border: 2px solid #34c44a; */
-    border-radius: 8px;  /*  */
+    border-radius: 8px;  /* Define o raio dos cantos da borda */
     
-    background-color: #174;  /*  */
-    color: #ffffff;  /*  */
+    background-color: #174;  /* Define um plano de fundo padrão */
+    color: #ffffff;  /* Define a cor padrão da fonte */
 }
